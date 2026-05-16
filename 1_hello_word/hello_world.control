@@ -1,0 +1,4 @@
+comment = 'My first postgres extension'
+default_version = '1.0'
+module_pathname = '$libdir/hello_world'
+relocatable = true
