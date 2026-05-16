@@ -1,0 +1,4 @@
+comment = 'Tutorial 2 extension'
+default_version = '1.0'
+module_pathname = '$libdir/int_bool_funcs'
+relocatable = true
