@@ -1,0 +1,4 @@
+comment = 'Tutorial 9 custom type'
+default_version = '1.0'
+module_pathname = '$libdir/custom_dt'
+relocatable = true
