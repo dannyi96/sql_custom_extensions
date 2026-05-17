@@ -1,0 +1,4 @@
+comment = 'Tutorial 5 error handling'
+default_version = '1.0'
+module_pathname = '$libdir/error_funcs'
+relocatable = true
