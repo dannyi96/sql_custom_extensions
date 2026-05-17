@@ -1,0 +1,60 @@
+# ── PostgreSQL extension build artifacts ───────────────────────────
+*.o
+*.so
+*.dylib
+*.dll
+*.a
+*.bc
+*.bundle
+*.lo
+*.la
+
+# PGXS / make leftovers
+*.d
+.deps/
+results/
+regression.diffs
+regression.out
+tmp_check/
+log/
+*.log
+
+# Generated extension control files (if any)
+*--*.sql.in.out
+
+# ── OS / editor noise ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.iml
+
+# ── Python (for pecip/) ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+pip-wheel-metadata/
+
+# ── Node / frontend (future) ───────────────────────────────────────
+node_modules/
+.next/
+.turbo/
+
+# ── Docker / infra local state ─────────────────────────────────────
+*.local.env
+.env
+.envrc
