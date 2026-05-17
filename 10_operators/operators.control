@@ -1,0 +1,4 @@
+comment = 'Tutorial 10 operators'
+default_version = '1.0'
+module_pathname = '$libdir/operators'
+relocatable = true
