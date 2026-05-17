@@ -1,0 +1,4 @@
+comment = 'Tutorial 7 TOAST'
+default_version = '1.0'
+module_pathname = '$libdir/toast'
+relocatable = true
