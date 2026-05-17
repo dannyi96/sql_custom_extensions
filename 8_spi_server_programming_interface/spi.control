@@ -1,0 +1,4 @@
+comment = 'Tutorial 8 SPI'
+default_version = '1.0'
+module_pathname = '$libdir/spi'
+relocatable = true
