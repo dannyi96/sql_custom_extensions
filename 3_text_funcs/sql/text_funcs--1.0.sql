@@ -1,0 +1,4 @@
+CREATE FUNCTION reverse_text(text)
+RETURNS text
+AS 'MODULE_PATHNAME', 'reverse_text'
+LANGUAGE C STRICT;

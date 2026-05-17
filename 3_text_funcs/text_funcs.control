@@ -1,0 +1,4 @@
+comment = 'Tutorial 3 text functions'
+default_version = '1.0'
+module_pathname = '$libdir/text_funcs'
+relocatable = true
